@@ -1,6 +1,9 @@
 # YoutubeVideo
 YoutubeVideo
 
+# Create a Object
+obj = YoutubeVideo(api_key="YOUR KEY", channel_id="UC_eOodxvwS_H7x2uLQa")
+
 # Get all Title Return List
 print(obj.get_title)
 
