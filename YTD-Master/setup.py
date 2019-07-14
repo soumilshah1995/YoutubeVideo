@@ -23,5 +23,5 @@ setup(
     ],
     packages=["YTD_Master"],
     include_package_data=True,
-    install_requires=["google-api-python-client","requests","pandas"]
+    install_requires=["google-api-python-client==1.7.8","pandas>=0.24.0"]
     )

@@ -1,4 +1,11 @@
-This shows how to use the Python Library
+# YoutubeVideo
+This is a python Package which can download all youtube videos and save it as Excel File
+and also Json File. It allows user to get all Titles, Youtube URL and Images from their channel
+
+special Thanks to indianpythonist
+
+# Create a Object
+obj = YoutubeVideo(api_key="YOUR KEY", channel_id="UC_eOodxvwS_H7x2uLQa")
 
 # Get all Title Return List
 print(obj.get_title)
@@ -34,6 +41,5 @@ obj.save_excel
 
 # save as JSON
 obj.save_json
-
 
 
